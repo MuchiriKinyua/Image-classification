@@ -48,11 +48,11 @@ Previewed the dataset to examine and compare the X-rays of both normal and pneum
 
 As seen in the image below it previews the xrays to be used with the models
 
-![X-rays_of_normal_and_pneumonia](images/review%20image.png)
+![review image](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/6e7cfc85-7867-44b4-81f7-f7ba9d6bb016)
 
 To compare the distinctions between normal X-rays and those showing pneumonia, we obtain the distinct difference by averaging the images.
 
-![comparison](images/comparison.png) ![comparison pneumonia](images/comparison2.png)
+![comparison](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/2a99a1e3-5ad3-4de4-bfb9-e399510777f7) ![comparison2](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/a2c7271b-7f68-4971-8873-d9d8f1e32181)
 
 we see that:
 
@@ -70,19 +70,19 @@ We employ Dense layers as our baseline neural network model, which is a standard
 
 ### Baseline Model
 
-![dense_model](images/dense_model%20performance.png)
+![dense_model performance](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/0480719d-bae4-4cdd-9763-d460f2bee436)
 
 Based on the graph shown above, it's evident that the model performs well on the training data, as indicated by the consistently low loss function, mostly below 0.2, as the number of epochs increases. Meanwhile, the validation set, which serves the purpose of preventing overfitting, demonstrates its lowest loss at 5 epochs, where it reaches a value of 0.22661.
 
 ### Convolutional Neural Networks Model
 
-![CNNs](images/cnn_model_performance.png)
+![cnn_model_performance](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/8b7d5fad-feb3-43a3-9f75-abfd49b56135)
 
 Based on the graph above, the performance of the CNN model is impressive as it fits the training data well, consistently maintaining a loss below 0.3. In contrast, the validation set, which plays a crucial role in preventing overfitting, achieves its lowest loss at 9 epochs, with a value of 0.00731.
 
 The CNN model outperforms the base model. To gain deeper insights into its performance, we conduct a thorough investigation using a confusion matrix.
 
-![confusion matrix](images/confuison%20matrix%20cnn.png)
+![confuison matrix cnn](https://github.com/MuchiriKinyua/Image-classification/assets/113877377/0736e742-427f-42b9-8b0c-563e020be10e)
 
 The plotted confusion matrix above reveals that 385 predictions accurately classified X-rays as pneumonia, representing true positives. Additionally, 120 predictions correctly identified X-rays as normal, constituting another set of true positives. However, the matrix also indicates that 114 predictions for normal X-rays were inaccurately classified as pneumonia, resulting in false positives. Furthermore, there were 5 predictions that were misclassified as normal, contributing to the false positives as well.
 
@@ -104,6 +104,3 @@ From the project to implement deep learning for pneumonia classification at Sere
 
 5. **Competitive Advantage**: Serenity Health Center's commitment to leveraging cutting-edge technology like deep learning demonstrates its dedication to innovation and patient care. This can enhance the hospital's reputation, attract top medical talent, and differentiate it from competitors in the healthcare industry.
 
-## Non Technical Presentation
-
-To access the non technical presentaion [click here](https://www.canva.com/design/DAFuoCHyOVE/5D6Cad5rKxsa5e3qiyR4lw/edit?ui=eyJHIjp7fX0)
